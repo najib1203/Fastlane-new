@@ -17,13 +17,12 @@ android {
     
     signingConfigs {
         release {
-            storeFile keystore.Properties['storeFile']
-            storePassword keystore.Properties['storePassword']
-            keyAlias keystore.Properties['keyAlias']
-            keyPassword keystore.Properties['keyPassword']
-           }
+            storeFile file("app/keystore")
+            storePassword "fastlane"
+            keyAlias "fastlane"
+            keyPassword "fastlane"
     }
-
+}
     buildTypes {
         release {
             signingConfig signingConfigs.release
