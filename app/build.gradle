@@ -17,10 +17,10 @@ android {
     
     signingConfigs {
         release {
-            storeFile keystore.Properties["storeFile"]
-            storePassword keystore.Properties["storePassword"]
-            keyAlias keystore.Properties["keyAlias"]
-            keyPassword keystore.Properties["keyPassword"]
+            storeFile keystore.Properties['storeFile']
+            storePassword keystore.Properties['storePassword']
+            keyAlias keystore.Properties['keyAlias']
+            keyPassword keystore.Properties['keyPassword']
         }
     }
 
