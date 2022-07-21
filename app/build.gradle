@@ -17,7 +17,7 @@ android {
     
     signingConfigs {
         release {
-            storeFile file("keystore.jks")
+            storeFile file("storeFile")
             storePassword "fastlane"
             keyAlias "fastlane"
             keyPassword "fastlane"
